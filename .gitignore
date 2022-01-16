@@ -1,41 +1,19 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Create By teychit", "Synapse")
+local Tab = Window:NewTab("Menu")
+local Section = Tab:NewSection("game")
+Section:NewButton("Prisonlife", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/descord/loadstrings/main/prisonlifecmds1.lua", true))()
+end)
+Section:NewButton("Murder mystery 2", "hack", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+Section:NewButton("Admin", "Admin", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Section:NewButton("Bloxfruits", "hack", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/Free---Script/main/3GAME")()
+end)
+Section:NewButton("Dahood Hack", "hack", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+end)
