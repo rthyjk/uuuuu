@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Create By teychit", "Synapse")
+local Window = Library.CreateLib("Create By rrr", "Synapse")
 local Tab = Window:NewTab("Menu")
 local Section = Tab:NewSection("game")
 Section:NewButton("Prisonlife", "Admin", function()
